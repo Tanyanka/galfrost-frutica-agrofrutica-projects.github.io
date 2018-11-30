@@ -1,0 +1,96 @@
+/* colors */
+/* hover */
+.search-form-wrapper {
+  position: fixed;
+  display: none;
+  top: -100vh;
+  right: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  background-color: #fff;
+  z-index: 3000;
+  -webkit-transition: top .25s linear;
+  -o-transition: top .25s linear;
+  transition: top .25s linear; }
+  .search-form-wrapper.active {
+    display: block;
+    top: 0;
+    -webkit-transition: top .25s linear;
+    -o-transition: top .25s linear;
+    transition: top .25s linear; }
+
+.close-search {
+  width: 20px;
+  margin: 0 auto 24px auto;
+  cursor: pointer; }
+
+.clear-search {
+  position: absolute;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 17px;
+  top: 35%;
+  width: 20px;
+  height: 20px;
+  background-color: #9ca4aa;
+  border-radius: 50%;
+  cursor: pointer; }
+  .clear-search.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.search-form-style {
+  position: relative; }
+  .search-form-style input {
+    width: 100%;
+    height: 70px;
+    padding: 0 25px;
+    background-color: #ededed;
+    border: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.search-results {
+  display: none;
+  margin-top: 40px;
+  padding: 0 25px;
+  width: 100%; }
+
+.loading-search,
+.search-post-type {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(16, 28, 36, 0.2); }
+
+.loading-search {
+  display: none;
+  margin-top: 40px; }
+
+.search-results a {
+  font-size: 14px;
+  line-height: 3;
+  letter-spacing: 0.5px;
+  color: #16c658;
+  text-decoration: underline; }
+  .search-results a:hover {
+    color: #0b943e;
+    text-decoration: none; }
+
+@media screen and (max-width: 767px) {
+  .search-form-wrapper.active {
+    bottom: 0;
+    overflow-y: scroll; }
+  .search-results a {
+    line-height: 1.5;
+    margin-bottom: 10px; }
+  .search-post-type {
+    margin-bottom: 20px; } }

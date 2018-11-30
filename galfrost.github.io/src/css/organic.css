@@ -1,0 +1,54 @@
+/* colors */
+/* hover */
+.organik-description {
+  max-width: 879px;
+  width: 100%;
+  padding: 60px 0 50px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .organik-description h1 {
+    text-align: left;
+    margin-bottom: 35px; }
+  .organik-description p:not(:last-child) {
+    margin-bottom: 25px; }
+
+.bg-img {
+  height: 500px;
+  width: 100%; }
+
+.organik-bg-img {
+  background: url("../img/organic-pic.jpg") center bottom no-repeat;
+  background-size: cover; }
+
+.organic {
+  position: relative;
+  padding-top: 45px; }
+  .organic.products .subtitle:not(:nth-child(2)) {
+    margin-top: 40px; }
+
+.organic-text {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .organic-text p:not(:last-child) {
+    margin-bottom: 25px; }
+  .organic-text ul {
+    margin-bottom: 40px; }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .organik-description {
+    max-width: 100%;
+    padding-left: 80px;
+    padding-right: 80px; }
+  .organik-bg-img {
+    height: 396px; } }
+
+@media screen and (max-width: 767px) {
+  .organik-description {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px; }
+  .organik-bg-img {
+    height: 396px; }
+  .organic-text p:last-child {
+    padding-bottom: 40px; } }

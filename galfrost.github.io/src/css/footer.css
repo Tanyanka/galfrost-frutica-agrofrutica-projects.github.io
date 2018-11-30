@@ -1,0 +1,90 @@
+/* colors */
+/* hover */
+footer {
+  padding-top: 0;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear; }
+  footer.active {
+    padding-top: 340px; }
+  footer .footer-wrapper {
+    padding: 70px 0 50px; }
+    footer .footer-wrapper .footer-logo svg {
+      fill: #16c658; }
+    footer .footer-wrapper > div:last-child {
+      width: 80%;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: .5px;
+      color: #9ca4aa; }
+      footer .footer-wrapper > div:last-child .footer-info {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-bottom: 55px; }
+        footer .footer-wrapper > div:last-child .footer-info .copyright {
+          width: 75%; }
+        footer .footer-wrapper > div:last-child .footer-info .footer-link div:not(:last-child) {
+          padding-right: 40px;
+          padding-top: 3px; }
+        footer .footer-wrapper > div:last-child .footer-info .footer-link a {
+          width: 18px;
+          height: 20px; }
+          footer .footer-wrapper > div:last-child .footer-info .footer-link a svg {
+            fill: #16c658; }
+      footer .footer-wrapper > div:last-child .legal-agreements {
+        width: 75%; }
+        footer .footer-wrapper > div:last-child .legal-agreements p {
+          margin-bottom: 25px; }
+        footer .footer-wrapper > div:last-child .legal-agreements span {
+          color: #16c658; }
+
+@media screen and (max-width: 1024px) {
+  footer.active {
+    padding-top: 0; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer .footer-wrapper > div:last-child {
+    width: 75%; }
+    footer .footer-wrapper > div:last-child .footer-info {
+      margin-bottom: 37px; }
+    footer .footer-wrapper > div:last-child .legal-agreements {
+      width: 100%; } }
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 0 20px; }
+    footer .footer-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 47px 0 18px 0; }
+      footer .footer-wrapper > div {
+        width: 100%; }
+        footer .footer-wrapper > div:first-child {
+          margin-bottom: 39px;
+          text-align: center; }
+        footer .footer-wrapper > div:last-child {
+          width: 100%; }
+          footer .footer-wrapper > div:last-child .footer-info {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            margin-bottom: 42px;
+            text-align: center; }
+            footer .footer-wrapper > div:last-child .footer-info .copyright {
+              width: 100%;
+              margin-bottom: 42px; }
+            footer .footer-wrapper > div:last-child .footer-info .footer-link {
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center; }
+              footer .footer-wrapper > div:last-child .footer-info .footer-link div:not(:last-child) {
+                margin-right: 100px; }
+          footer .footer-wrapper > div:last-child .legal-agreements {
+            width: 100%; } }
